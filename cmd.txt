@@ -1,0 +1,1 @@
+docker run -it -v /tmp/le:/etc/letsencrypt certbot/certbot certonly -d *.arenadata.io -d arenadata.io  --manual --agree-tos --preferred-challenges=dns  --server https://acme-v02.api.letsencrypt.org/directory --manual-public-ip-logging-ok
